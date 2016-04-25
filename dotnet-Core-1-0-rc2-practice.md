@@ -1,13 +1,15 @@
 # .NET Core 1.0 RC2 历险之旅
 
-文章背景：对于.NET Core大家应该并不陌生, 从它被[宣布](https://weblogs.asp.net/scottgu/announcing-open-source-of-net-core-framework-net-core-distribution-for-linux-osx-and-free-visual-studio-community-edition) 到现在已经有1-2年的时间了，其比较重要的一个版本1.0 RC2 也即将发布。.Net Core从一个一个的测试版到现在的RC2，经历了很多个大大小小的变化。特别是在RC1到RC2的更新之中，.NET Core命令行工具（dotnet cli）从 dnx 变为 dotnet，并且废除了 DNVM 和 DNU，使得 .NET Core 的开发变得更为简单，其相关工具链也基本成型。虽然网上关于.NET Core的示例项目不在少数，而且微软官方也提供了不少示例项目，但大多针对的是.NET Core的不同版本，因此很多示例项目并不是能很容易的运行起来。所以我决定写一篇针对RC2这个版本的.NET Core入门文章并提供一些能直接运行的[示例项目](https://github.com/kerryjiang/dotnetcore-samples)。
+文章背景：对于.NET Core大家应该并不陌生, 从它被 [宣布](https://weblogs.asp.net/scottgu/announcing-open-source-of-net-core-framework-net-core-distribution-for-linux-osx-and-free-visual-studio-community-edition) 到现在已经有1-2年的时间了，其比较重要的一个版本1.0 RC2 也即将发布。.Net Core从一个一个的测试版到现在的RC2，经历了很多个大大小小的变化。特别是在RC1到RC2的更新之中，.NET Core命令行工具（dotnet cli）从 dnx 变为 dotnet，并且废除了 DNVM 和 DNU，使得 .NET Core 的开发变得更为简单，其相关工具链也基本成型。虽然网上关于.NET Core的示例项目不在少数，而且微软官方也提供了不少示例项目，但大多针对的是.NET Core的不同版本，因此很多示例项目并不是能很容易的运行起来。所以我决定写一篇针对RC2这个版本的.NET Core入门文章并提供一些能直接运行的[示例项目](https://github.com/kerryjiang/dotnetcore-samples)。
 
 ## 下载安装 .NET Core SDK
 
 从 dotnet cli github项目主页找到最新版的.Net Core SDK下载:
+
 [https://github.com/dotnet/cli](https://github.com/dotnet/cli)
 
 例如 Mac OS X的最新版的.NET Core SDK的下载地址为：
+
 https://dotnetcli.blob.core.windows.net/dotnet/beta/Installers/Latest/dotnet-dev-osx-x64.latest.pkg
 
 安装前请确认当前系统是否已经安装了老版本的.NET Core, 如果已经安装，请先卸载。
@@ -119,7 +121,7 @@ https://dotnetcli.blob.core.windows.net/dotnet/beta/Installers/Latest/dotnet-dev
             }
         }
         
-     如本机 dotnet --version 命令返回值为 “1.0.0-rc2-002485”，则应runtime config中的版本号应替换为“1.0.0-rc2-002485”。
+     如本机 dotnet --version 命令返回值为 “1.0.0-rc2-002485”，则应runtime config中的版本号应替换为“1.0.0-rc2-3002485”。
      
      然后再尝试运行 dotnet run
 
