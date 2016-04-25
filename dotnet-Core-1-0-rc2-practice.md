@@ -491,7 +491,7 @@ https://dotnetcli.blob.core.windows.net/dotnet/beta/Installers/Latest/dotnet-dev
 
 大家通过以上介绍和示例应该可以了解到，当前使用.NET Core 来进行简单的应用开发是可行的，dot cli(dotnet) 这个工具已经比上个版本(RC1)的工具简单方便了很多，而且统一的Web开发和Console开发，CLI工具本身以后应该不会有太大的变化。因为.NET Core 1.0 RC2还在开发测试阶段，有的包可能还没有发布到NuGet上，因此而造成的找不到合适包的情况属于常见问题之一，不过只要在NuGet.config中增加了合适的Package Source，这个问题就很好解决了。所以大家如果想要把自己的项目，公司的项目迁移到.NET Core, 现在就可以开始动手了，不用再等到时间不确定的 1.0 release。
 
-另外，本文所展示的示例代码限于篇幅与排版，无法做到十分详细，例如代码中所需要的using并未提及，还需要读者来自行添加(VS里ALT＋SHIT＋F10, VSC里面好像只能手动点感叹号？)。
+另外，本文所展示的示例代码限于篇幅与排版，无法做到十分详细，例如代码中所需要的using并未提及，还需要读者来自行添加(VS里ALT＋SHIFT＋F10, VSC里面好像只能手动点感叹号？)。
 
 而且此文旨在尝试.NET Core的可用性，因此并未对如ASP.NET MVC 6和 EF7相关技术做深入探讨，如需了解请查看相关技术文档：
 
