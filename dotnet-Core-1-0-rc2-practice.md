@@ -127,7 +127,7 @@ https://dotnetcli.blob.core.windows.net/dotnet/beta/Installers/Latest/dotnet-dev
 
 4. 调试项目 (Visual Studio Code)
 
-    使用 VSCode 打开项目所在文件夹之后，VSCode 会问你是否添加启用项目调试相关的文件，你选OK之后目录下会新增文件夹“.vscode”，其中毁谤含两个文件：
+    使用 VSCode 打开项目所在文件夹之后，VSCode 会问你是否添加启用项目调试相关的文件，你选OK之后目录下会新增文件夹“.vscode”，其中会包含两个文件：
     
         launch.json
         tasks.json
