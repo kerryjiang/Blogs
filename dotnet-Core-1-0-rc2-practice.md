@@ -334,7 +334,6 @@ https://dotnetcli.blob.core.windows.net/dotnet/beta/Installers/Latest/dotnet-dev
                 
                 if (db.Database.EnsureCreated())
                 {
-                    db.Database.
                     for (int i = 0; i < 10; i++)
                     {
                         var article = new Article {
