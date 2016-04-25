@@ -61,7 +61,7 @@ https://dotnetcli.blob.core.windows.net/dotnet/beta/Installers/Latest/dotnet-dev
    
    如发现类似下面的Warning也请不要惊慌，这是由于CLI的版本号与下载下来的.NET Core类库的版本号不一致导致的，这种情况不会影响编译和运行。
    
-    warn : Dependency specified was Microsoft.NETCore.App (>= 1.0.0-rc2-3002464) but ended up with Microsoft.NETCore.App 1.0.0-rc2-3002468.
+        warn : Dependency specified was Microsoft.NETCore.App (>= 1.0.0-rc2-3002464) but ended up with Microsoft.NETCore.App 1.0.0-rc2-3002468.
 
 2. 编译项目
 
