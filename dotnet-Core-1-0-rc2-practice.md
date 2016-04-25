@@ -398,21 +398,21 @@ https://dotnetcli.blob.core.windows.net/dotnet/beta/Installers/Latest/dotnet-dev
 
 3. 然后在 Startup 中的 ConfigureSerivces 方法中注册服务：
 
-    public void ConfigureServices(IServiceCollection services)
-    {
-        // register services about EF
-        services.AddEntityFramework()
-                .AddEntityFrameworkSqlite()
-                .AddDbContext<WebsiteDbContext>(
-                    options => options.UseSqlite("Data Source=./mvcidentitysample.sqlite"));
-        
-        // register services about ASP.NET Identity
-        services.AddIdentity<ApplicationUser, IdentityRole>()
-            .AddEntityFrameworkStores<WebsiteDbContext>()
-            .AddDefaultTokenProviders();
-        
-        services.AddMvc();
-    }
+        public void ConfigureServices(IServiceCollection services)
+        {
+            // register services about EF
+            services.AddEntityFramework()
+                    .AddEntityFrameworkSqlite()
+                    .AddDbContext<WebsiteDbContext>(
+                        options => options.UseSqlite("Data Source=./mvcidentitysample.sqlite"));
+            
+            // register services about ASP.NET Identity
+            services.AddIdentity<ApplicationUser, IdentityRole>()
+                .AddEntityFrameworkStores<WebsiteDbContext>()
+                .AddDefaultTokenProviders();
+            
+            services.AddMvc();
+        }
     
 4. 再到 Startup 中的 Configure 方法中启用 Identity：
 
