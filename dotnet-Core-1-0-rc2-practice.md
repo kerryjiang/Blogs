@@ -33,6 +33,14 @@ https://dotnetcli.blob.core.windows.net/dotnet/beta/Installers/Latest/dotnet-dev
 
 2. 安装VSCode C#插件
 
+    由于支持 RC2 的 C# 插件 v1.0 还未正式发布到 VS Code extension 仓库里, 因此你只能手动从github下载并安装：
+    
+    https://github.com/OmniSharp/omnisharp-vscode/releases
+   
+    Mac OS X 下通过 VSCode 打开下载下来的文件即可。
+ 
+    等到 VS Code C# 插件 v1.0 版本正式发布了，你就可以通过VSCode的命令窗口来安装 C# 支持了。详细操作如下：
+    
     运行VSCode, 然后使用快捷键 ⌘ + P 启动快速打开命令窗口，然后输入如下命令安装C#扩展。最新版的csharp扩展已支持 RC2 的.NET程序的调试。
     
         ext install csharp
