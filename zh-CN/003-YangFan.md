@@ -1,4 +1,4 @@
-# 事关SuperSocket发布，寻找YangFan哥哥
+# 事关SuperSocket发布，寻找FanYang哥哥
 
 SuperSocket近日发布了2.0的第一个预览版，在NuGet上以一个包含数个SuperSocket程序集的大包的形式发布。
 https://www.nuget.org/packages/SuperSocket/2.0.0-preview1
