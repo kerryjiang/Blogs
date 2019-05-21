@@ -6,7 +6,7 @@ https://www.nuget.org/packages/SuperSocket/2.0.0-preview1
 我原意以独立小包的形式发布让用户能够按需引用，但当前无法做到。
 原因较为尴尬，一个名为 FanYang （杨帆，杨凡）的哥哥（可能是SuperSocket的忠实用户）迫不及待的在4月底5月初将SuperSocket的主分支代码（.net core版本）自行编译打包上传到了NuGet。如下图所示：
 
-![](https://img2018.cnblogs.com/blog/7804/201905/7804-20190518022420133-663758256.jpg)
+![](nugetpackages.jpg)
 
 在此，我感谢FanYang哥哥如此努力积极，这种精神激励了我不断追求进步，努力向前。
 
