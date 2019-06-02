@@ -1,8 +1,8 @@
 # 在 Jupyter Notebook 玩转 C# 和 TensorFlow.NET (Part 1)
 
-今天，SchiSharp 技术社区正式宣布用于Jupyter Notebook 的.NET Core kernel _ICSharpCore_ (https://github.com/SciSharp/ICSharpCore) 基本就绪。 而且，开箱即用的docker 镜像已经被推送到Docker hub (scisharpstack/scisharpcube)。
+今天，**SchiSharp** 技术社区正式宣布用于Jupyter Notebook 的.NET Core kernel **ICSharpCore** (https://github.com/SciSharp/ICSharpCore) 基本就绪。 而且，开箱即用的docker 镜像已经被推送到Docker hub (scisharpstack/scisharpcube)。
 
-这就意味着我们可以不用自己安装相关的运行环境和软件组件而直接在让 C# 和 Tensorflow.NET 运行在Jupyter Notebook。
+这就意味着我们可以不用自己安装相关的运行环境和软件组件而直接在让 C# 和 **Tensorflow.NET** 运行在Jupyter Notebook。
 
 ## 运行 docker container
 
@@ -62,11 +62,11 @@
 
 ## 在 Jupyter Notebook 中用 C# 显示图表
 
-SciSharp community 还开发了一个叫 Plot.NET 的项目。他是一个为ICSharpCore做的 plotly.js （一个javascript 图表库） 的.NET封装。 https://github.com/SciSharp/Plot.NET
+**SciSharp community** 还开发了一个叫 **Plot.NET** 的项目。他是一个为ICSharpCore做的 plotly.js （一个javascript 图表库） 的.NET封装。 https://github.com/SciSharp/Plot.NET
 
 它可以用于在 Jupyter Notebook 中使用 C# 来画图表。
 
-首先，犹豫我们默认从NuGet引用了PlotNET，因此我们只需要先添加using 即可：
+首先，犹豫我们默认从NuGet引用了**PlotNET**，因此我们只需要先添加using 即可：
 
     using PlotNET;
 
@@ -90,9 +90,9 @@ SciSharp community 还开发了一个叫 Plot.NET 的项目。他是一个为ICS
 
 ## 在 Jupyter Notebook 中使用 Tensorflow.NET
 
-现在我们要在 Jupyter 中运行 TensorFlow.NET 的 HelloWorld这个示例了。(https://github.com/SciSharp/TensorFlow.NET/blob/master/test/TensorFlowNET.Examples/HelloWorld.cs)
+现在我们要在 Jupyter 中运行 **TensorFlow.NET** 的 HelloWorld这个示例了。(https://github.com/SciSharp/TensorFlow.NET/blob/master/test/TensorFlowNET.Examples/HelloWorld.cs)
 
-由于kernel自动引用的 Tensorflow.NET，所以在此只需直接声明using语句就行了:
+由于kernel自动引用的 **Tensorflow.NET**，所以在此只需直接声明using语句就行了:
 
     using Tensorflow;
 
@@ -110,7 +110,7 @@ SciSharp community 还开发了一个叫 Plot.NET 的项目。他是一个为ICS
     }
 
 
-然后运行所有步骤。如果你能看到输出的文字信息 "Hello, TensorFlow.NET!"，那就说明 TensorFlow.NET 已经可以运行在 Jupyter Notebook 中了。
+然后运行所有步骤。如果你能看到输出的文字信息 "Hello, TensorFlow.NET!"，那就说明 **TensorFlow.NET** 已经可以运行在 Jupyter Notebook 中了。
 
 
 
