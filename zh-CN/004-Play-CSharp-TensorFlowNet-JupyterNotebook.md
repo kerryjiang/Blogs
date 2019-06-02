@@ -92,7 +92,7 @@
 
 现在我们要在 Jupyter 中运行 **TensorFlow.NET** 的 HelloWorld这个示例了。(https://github.com/SciSharp/TensorFlow.NET/blob/master/test/TensorFlowNET.Examples/HelloWorld.cs)
 
-由于kernel自动引用的 **Tensorflow.NET**，所以在此只需直接声明using语句就行了:
+由于kernel自动引用的 **Tensorflow.NET**，所以在此只需直接声明using语句即可:
 
     using Tensorflow;
 
