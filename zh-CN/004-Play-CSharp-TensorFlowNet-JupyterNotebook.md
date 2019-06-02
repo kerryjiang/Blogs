@@ -66,7 +66,7 @@
 
 它可以用于在 Jupyter Notebook 中使用 C# 来画图表。
 
-首先，由于我们默认从NuGet引用了**PlotNET**，因此我们只需要先添加using 即可：
+首先，由于我们默认从NuGet引用了**PlotNET**，因此我们现在只需要先添加 using 即可：
 
     using PlotNET;
 

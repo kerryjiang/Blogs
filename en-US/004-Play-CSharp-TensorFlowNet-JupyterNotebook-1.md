@@ -67,7 +67,7 @@ The **SciSharp Community** also developed the project **Plot.NET**, which is an 
 
 It can be used for plotting with C# in the Jupyter Notebook.
 
-At first, we already reference the **PlotNET** nuget package by default automatically, so you just need using the namespace:
+At first, we already reference the **PlotNET** nuget package by default automatically, so now you just need add the using for the namespace:
 
     using PlotNET;
 
