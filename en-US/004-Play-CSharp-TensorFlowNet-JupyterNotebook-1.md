@@ -1,6 +1,6 @@
 # Play C# and Tensorflow.NET with Jupyter Notebook (Part 1)
 
-Today, the SchiSharp community officially announced their .NET Core kernel for the Jupyter Notebook _ICSharpCore_ (https://github.com/SciSharp/ICSharpCore) is ready. And an out-of-box docker image has been pushed to the Docker hub (scisharpstack/scisharpcube).
+Today, the **SchiSharp Community** officially announced their .NET Core kernel for the Jupyter Notebook **ICSharpCore** (https://github.com/SciSharp/ICSharpCore) is ready. And an out-of-box docker image has been pushed to the Docker hub (scisharpstack/scisharpcube).
 
 It means we can play C# and Tensorflow.NET with the Jupyter Notebook without having to worry about installing related environment and software components.
 
@@ -63,11 +63,11 @@ If you want to use an external library, just reference it from NuGet by the stat
 
 ## Show chart using C# in the Jupyter Notebook
 
-The SciSharp community also developed the project Plot.NET, which is an .NET wrapper of plotly.js for ICSharpCore. https://github.com/SciSharp/Plot.NET
+The **SciSharp Community** also developed the project **Plot.NET**, which is an .NET wrapper of plotly.js for ICSharpCore. https://github.com/SciSharp/Plot.NET
 
 It can be used for plotting with C# in the Jupyter Notebook.
 
-At first, we already reference the PlotNET nuget package by default automatically, so you just need using the namespace:
+At first, we already reference the **PlotNET** nuget package by default automatically, so you just need using the namespace:
 
     using PlotNET;
 
@@ -94,7 +94,7 @@ After you run them, you will see the chart as shown in the figure below.
 
 We are going to run the HelloWorld example in the Jupyter right now. (https://github.com/SciSharp/TensorFlow.NET/blob/master/test/TensorFlowNET.Examples/HelloWorld.cs)
 
-Because the kernel has refererenced the Tensorflow.NET by default, so we can declare the using statement directly:
+Because the kernel has refererenced the **Tensorflow.NET** by default, so we can declare the using statement directly:
 
     using Tensorflow;
 
@@ -112,7 +112,7 @@ Fill the major part of the HelloWorld example:
     }
 
 
-And then run all the steps. If you can see the output text "Hello, TensorFlow.NET!", that means the TensorFlow.NET generally works in the Jupyter Notebook.
+And then run all the steps. If you can see the output text "Hello, TensorFlow.NET!", that means the **TensorFlow.NET** generally works in the Jupyter Notebook.
 
 
 
