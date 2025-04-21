@@ -2,7 +2,7 @@
 
 **April 20, 2025 - The SuperSocket Team is proud to announce the official release of SuperSocket 2.0**, a major milestone for this high-performance, extensible socket server application framework for .NET. After several years of development following the initial preview releases, SuperSocket 2.0 represents a complete reimagining of the framework, built from the ground up for modern .NET.
 
-![SuperSocket 2.0](../assets/supersocket2-0.jpg)
+<img src="../assets/supersocket2-0.jpg" width="500" alt="SuperSocket 2.0 cake" />
 
 ## A Decade of Evolution
 

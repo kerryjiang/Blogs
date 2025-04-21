@@ -2,7 +2,7 @@
 
 **2025年4月20日 - SuperSocket团队自豪地宣布 SuperSocket 2.0 正式发布**，这是这个高性能、可扩展的 .NET Socket 服务器应用框架的一个重要里程碑。在初始预览版发布后经过数年的开发，SuperSocket 2.0 代表了该框架的完全重构，专为现代 .NET 平台而打造。
 
-![SuperSocket 2.0](../assets/supersocket2-0.jpg)
+<img src="../assets/supersocket2-0.jpg" width="500" alt="SuperSocket 2.0 cake" />
 
 ## 十余年的演进
 
